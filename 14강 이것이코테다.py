@@ -1,6 +1,6 @@
 n = int(input())
 
-a, b == 1,1 # 초기 좌표
+a, b = 1,1 # 초기 좌표
 plans = input().split()
 
 x = [0, -1, 0 ,1]
@@ -18,6 +18,6 @@ for plan in plans:
 
   if nx < 1 or ny <1 or nx > n or ny > n:
     continue
-    
+  a, b = nx, ny
 
- 
+print(a, b)
